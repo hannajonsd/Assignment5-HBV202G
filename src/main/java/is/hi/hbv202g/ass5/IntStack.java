@@ -53,8 +53,9 @@ public class IntStack {
     }
 
     /**
-     *
-     * @return
+     * Returns whether the stack is empty.
+     * A further pop would throw an exception.
+     * @return true if stack is empty, false if stack is not empty
      */
     public boolean isEmpty() {
         if (nextPushLocation == 0) {
